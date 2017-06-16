@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>ActiveMQ Test</title>
+</head>
+<body>
+    <form action="send" method="post">
+        <input type="text" name="text"/>
+        <input type="submit" value="Send"/>
+    </form>
+    <h4 th:text="${response}"></h4>
+</body>
+</html>
